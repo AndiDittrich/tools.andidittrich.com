@@ -1,0 +1,3 @@
+# Redirect to Default Page
+DirectoryIndex PasswordGenerator.html
+ErrorDocument 404 /PasswordGenerator.html
