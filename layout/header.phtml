@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title><?php echo $title ?></title>
+    <link rel="icon" href="icon.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <style type="text/css">
+        h1 {
+            font-size: 50px;
+            color: #707070;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0px 0px 0px;
+        }
+        textarea{
+            resize: vertical;
+            font-family: "Source Code Pro", "Consolas", "Courier New", "Courier", monospace;
+        }
+        button{
+            margin-left: 10px;
+        }
+        footer{
+            padding: 30px 0px 20px 0px;
+        }
+        #alert{
+            display: none;
+        }
+    </style>
+
+<body>
+
+<header>
+    <div class="container">
+        <?php include('nav.phtml') ?>
+
+        <h1><?php echo $title ?></h1>
+        <p class="lead"><?php echo $subtitle ?></p>
+    </div>
+</header>

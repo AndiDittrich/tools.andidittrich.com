@@ -11,6 +11,7 @@ Features
 * [Password Generator](http://tools.andidittrich.de/PasswordGenerator.html) - Generate strong, random passwords easily on the client-side
 * [ReExp TextFilter](http://tools.andidittrich.de/TextFilter.html) - Apply Javascript Regular Expressions online to arbitrary text.
 * [Base64 Encoder/Decoder](http://tools.andidittrich.de/Base64.html) - Encoder/Decoder using WebAPI
+* [Token generator](http://tools.andidittrich.de/Token.html) - Generate Random Tokens
 
 Any Questions ? Report a Bug ? Enhancements ?
 ---------------------------------------------
