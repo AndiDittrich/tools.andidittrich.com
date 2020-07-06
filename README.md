@@ -1,22 +1,19 @@
 WebTools
 =========================
 
-A bunch of **Javascript based utilities** - public available on [tools.andidittrich.de](http://tools.andidittrich.de/)
+A bunch of **Javascript based utilities** - public available on [tools.andidittrich.de](https://tools.andidittrich.com/)
 
-![Screenshot](https://github.com/AndiDittrich/WebTools/raw/master/assets/screenshot1.jpg)
+![Screenshot](assets/screenshot1.jpg)
 
 Features
 ---------------------------------------------
 
-* [Password Generator](http://tools.andidittrich.de/PasswordGenerator.html) - Generate strong, random passwords easily on the client-side
-* [ReExp TextFilter](http://tools.andidittrich.de/TextFilter.html) - Apply Javascript Regular Expressions online to arbitrary text.
-* [Base64 Encoder/Decoder](http://tools.andidittrich.de/Base64.html) - Encoder/Decoder using WebAPI
-* [Token generator](http://tools.andidittrich.de/Token.html) - Generate Random Tokens
-
-Any Questions ? Report a Bug ? Enhancements ?
----------------------------------------------
-Please open a new issue on [GitHub](https://github.com/AndiDittrich/Webtools/issues)
+* [Password Generator](https://tools.andidittrich.com/PasswordGenerator.html) - Generate strong, random passwords easily on the client-side
+* [ReExp TextFilter](https://tools.andidittrich.com/TextFilter.html) - Apply Javascript Regular Expressions online to arbitrary text.
+* [Base64 Encoder/Decoder](https://tools.andidittrich.com/Base64.html) - Encoder/Decoder using WebAPI
+* [Token generator](https://tools.andidittrich.com/Token.html) - Generate Random Tokens
 
 License
--------
-WebTools is OpenSource and licensed under the Terms of [The MIT License (X11)](http://opensource.org/licenses/MIT). You're welcome to contribute!
+----------------------------------------------
+
+WebTools is OpenSource and licensed under the Terms of [Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0). You're welcome to [contribute](docs/CONTRIBUTING.md)

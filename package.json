@@ -1,0 +1,25 @@
+{
+  "name": "about-pages",
+  "description": "Corporate Website",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Andi Dittrich",
+    "email": "andi.dittrich@a3non.org"
+  },
+  "license": "commercial",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "fs-magic": "^2.1.1",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^4.0.1",
+    "gulp-prettyerror": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-wrapper": "^1.0.0",
+    "less-plugin-autoprefix": "^2.0.0"
+  }
+}

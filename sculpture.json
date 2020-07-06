@@ -1,0 +1,15 @@
+{
+    "globals": {
+        "title": "Beyond Technology - beyond the visible world"
+    },
+
+    "resources": [
+        "/bootstrap.min.css",
+        "/webtools.min.css",
+        "/webtools.min.js"
+    ],
+
+    "plugins": [
+        "resources"
+    ]
+}
