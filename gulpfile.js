@@ -11,6 +11,7 @@ const less = require('gulp-less');
 const cleanCSS = require('gulp-clean-css');
 const prettyError = require('gulp-prettyerror');
 const uglify = require('gulp-uglify');
+const _express = require('express');
 
 // license header prepended to builds
 const licenseHeader = '/*! HEADER */\n';
@@ -85,5 +86,19 @@ gulp.task('cleanup', async function(){
     return _fs.rmrf(_path.join(__dirname, 'dist'));
 });
 
+// development webserver
+gulp.task('webserver', function(){
+    // start development webserver
+    const webapp = _express();
+    webapp.get('/', function(req, res){
+        res.sendFile(_path.join(__dirname, 'dist/token.html'));
+    });
+    webapp.get(/^\/\w{12}\/(.+)$/, function(req, res){
+        res.sendFile(_path.join(__dirname, 'dist', req.params[0]));
+    });
+    webapp.use(_express.static(_path.join(__dirname, 'dist')));
+    webapp.listen(8888, () => console.log('DEV Webserver Online - localhost:8888'));
+});
+
 // default
-gulp.task('default', gulp.series('less', 'resources', 'js'));
+gulp.task('default', gulp.series('less', 'resources', 'js', 'webserver'));
